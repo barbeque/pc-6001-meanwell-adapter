@@ -1,6 +1,12 @@
 // pc6001 rear shell for power entry connector
 // about 5.5mm on either side of the qualitek entry
 
+/*
+Version history:
+    1.0 - it fits
+    1.1 - make more room for the IEC plug
+*/
+
 THICKNESS = 1.5; // 1.2 measured, just being safe
 FUDGE = 0.5;
 
@@ -35,8 +41,8 @@ module mounting_lip() {
 union() {
     difference() {
         back_plate();
-        // move 2mm up
-        translate([0, 2, 0]) {
+        // move 2mm down
+        translate([0, -2, 0]) {
             iec_cutout();
         }
     }
