@@ -670,6 +670,76 @@
 		)
 	)
 	(gr_line
+		(start 81.28 107.315)
+		(end 70.485 107.315)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05fd18d2-f2a6-4c56-bf27-8b44e1343ce1")
+	)
+	(gr_line
+		(start 95.25 107.315)
+		(end 70.485 107.315)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f8e9378-4755-46e7-ac46-519eb343ecff")
+	)
+	(gr_line
+		(start 70.485 110.49)
+		(end 95.25 110.49)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f6462c8-2fdc-4e15-84f6-5ba382376900")
+	)
+	(gr_line
+		(start 95.25 107.315)
+		(end 95.25 113.665)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49f2fe22-1c26-4ebc-9163-0fe947459784")
+	)
+	(gr_line
+		(start 81.28 113.665)
+		(end 81.28 107.315)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "787ef862-2e1c-4511-a8fd-37aab3e29977")
+	)
+	(gr_line
+		(start 70.485 113.665)
+		(end 70.485 107.315)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4d89875-262a-4bfd-b1d7-aaae44e47ad4")
+	)
+	(gr_line
+		(start 70.485 113.665)
+		(end 95.25 113.665)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5e6b8fc-6197-4e6d-a310-371c00d45a49")
+	)
+	(gr_line
 		(start 52 134)
 		(end 247 134)
 		(stroke
@@ -739,6 +809,30 @@
 		(layer "Edge.Cuts")
 		(uuid "f36ffac2-c7c3-4d61-b74e-b6c51390d098")
 	)
+	(gr_text "JST VHR"
+		(at 88.646 109.855 0)
+		(layer "F.SilkS")
+		(uuid "1392b72e-9fa5-4613-bb75-2127cc684789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "+12V"
+		(at 103.505 80.645 0)
+		(layer "F.SilkS")
+		(uuid "206e03e1-e8bf-49a7-a3a1-46e43e608f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Attach safety ground with ring terminal to chassis"
 		(at 118.745 114.935 0)
 		(layer "F.SilkS")
@@ -774,6 +868,68 @@
 				(thickness 0.15)
 			)
 			(justify right top)
+		)
+	)
+	(gr_text "+5V"
+		(at 103.505 90.805 0)
+		(layer "F.SilkS")
+		(uuid "2e8553b7-80f3-4256-a085-4d25d890af2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Terminals"
+		(at 76.2 113.03 0)
+		(layer "F.SilkS")
+		(uuid "5d0c80e6-2acd-421b-b0f6-673433e553e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 103.505 85.725 0)
+		(layer "F.SilkS")
+		(uuid "6f6ddec5-2752-4e9c-8742-b7b6073217f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L"
+		(at 215.265 103.505 0)
+		(layer "F.SilkS")
+		(uuid "914a02ed-6f8f-4e3f-b3ec-2cd9cd97cf6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Housing"
+		(at 76.2 109.855 0)
+		(layer "F.SilkS")
+		(uuid "a205da97-15de-4dfc-ae27-25024e317eb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "PC-6001 Meanwell Adapter"
@@ -1187,6 +1343,66 @@
 					(xy 140.27478 128.133497) (xy 140.163235 128.317083) (xy 140.147407 128.345073) (xy 140.147407 130.13)
 				)
 			)
+		)
+	)
+	(gr_text "GND"
+		(at 103.505 83.185 0)
+		(layer "F.SilkS")
+		(uuid "a97f7028-c2bb-4323-a290-8c990373b74b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "N"
+		(at 215.265 93.98 0)
+		(layer "F.SilkS")
+		(uuid "ac1bfd1f-1879-4edc-adac-071be123a0ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-12V"
+		(at 103.505 78.105 0)
+		(layer "F.SilkS")
+		(uuid "cc61b017-d719-421d-bbba-fedeb8d6f95a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SVH-21T-P1.1"
+		(at 82.804 113.03 0)
+		(layer "F.SilkS")
+		(uuid "e96cbd8d-3e7a-4775-8496-54b9f791c068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 103.505 88.265 0)
+		(layer "F.SilkS")
+		(uuid "fd3e0a79-148f-4faf-b342-284137c2f7c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "TODO: What about the cartridge slot safety defeat?"
