@@ -41,8 +41,8 @@ module mounting_lip() {
 union() {
     difference() {
         back_plate();
-        // move 2mm down
-        translate([0, -2, 0]) {
+        // move 1/2mm down
+        translate([0, -0.5, 0]) {
             iec_cutout();
         }
     }
