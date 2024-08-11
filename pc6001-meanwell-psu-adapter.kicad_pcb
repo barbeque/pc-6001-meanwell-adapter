@@ -1072,7 +1072,7 @@
 		)
 	)
 	(gr_text "Replaces:\nPWD-170 (JP)\nPWD-270 (US)"
-		(at 236.22 52.07 0)
+		(at 242.318019 69 0)
 		(layer "F.SilkS")
 		(uuid "2c1593a3-c6a2-411d-bd06-a692151bb13e")
 		(effects
