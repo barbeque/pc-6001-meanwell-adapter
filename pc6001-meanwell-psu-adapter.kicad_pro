@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
+          "drill": 4.0,
           "height": 7.5,
           "width": 7.5
         },
@@ -482,7 +482,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "pc6001-rpt60b-v1",
+      "plot": "pc6001-rpt60b-v2",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
