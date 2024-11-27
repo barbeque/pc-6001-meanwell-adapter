@@ -9,6 +9,9 @@ Doing so has many improvements:
 
 As an additional benefit, I also provide a 3D-printable grommet to use a pluggable IEC C7/C8 connector. This lets you get rid of the stock power cord. Those power cords, after forty-plus years, are now often melting from plasticizer leaching, and are inconvenient to store.
 
+# Flaws
+Currently, the Meanwell switch-mode supply seems to introduce a lot of video and audio noise into the Japanese-market PC-6001. Watch this space for a list of grounding and decoupling mods that can be made to reduce this noise, similar to those applied by the factory to the US-market PC-6001A ("NEC Trek.")
+
 ## Sourcing
 The Gerber files can be found in the [Releases page](/releases) and sent to any PCB fabricator. I recommend JLCPCB.
 
